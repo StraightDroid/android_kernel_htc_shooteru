@@ -2,6 +2,8 @@
 .DS_Store
 
 # Use wildcards as well
+.*
+
 *~
 *.swp
 
@@ -17,14 +19,23 @@
 
 *.builtin
 *.order
+*.ko
+*.a
 
 .version
 
 zImage
-
+vmlinux
 arch/arm/kernel/asm-offsets.s
 include/config/
 include/generated/
 include/linux/version.h
 kernel/bounds.s
 usr/.initramfs_data.cpio.d
+Module.symvers
+System.map
+arch/arm/mach-msm/msm-buspm-dev.mod.c
+drivers/net/kineto_gan.mod.c
+drivers/net/wireless/bcm4329_248/bcm4329.mod.c
+drivers/spi/spidev.mod.c
+

@@ -2,8 +2,8 @@
 export PATH=`pwd`/../../../prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin:$PATH
 export ARCH=arm
 export SUBARCH=arm
-make clean
-make shooter_u_defconfig
+#make clean
+#make shooter_u_defconfig
 make -j$(nproc)
 
 if [ ! -d "../../../device/htc/shooteru/prebuilt" ]; then

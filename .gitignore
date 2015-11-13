@@ -1,28 +1,20 @@
 # Can ignore specific files
 .DS_Store
 
-# Use wildcards as well
 .*
 
 *~
-*.swp
 
 *.o
 
 *.cmd
 
-.config
-.config.old
-
-.missing-syscalls.d
 .tmp_versions/
 
 *.builtin
 *.order
 *.ko
 *.a
-
-.version
 
 zImage
 vmlinux

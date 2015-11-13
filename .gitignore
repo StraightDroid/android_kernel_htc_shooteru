@@ -9,5 +9,21 @@
 
 *.cmd
 
+.config
+
+.missing-syscalls.d
+.tmp_versions/
+
+*.builtin
+*.order
+
+.version
+
 zImage
 
+arch/arm/kernel/asm-offsets.s
+include/config/
+include/generated/
+include/linux/version.h
+kernel/bounds.s
+usr/.initramfs_data.cpio.d

@@ -1,6 +1,6 @@
 #Android makefile to build kernel as a part of Android Build
 PERL		= perl
-
+# kernel uses old compiler
 PATH=$(ANDROID_BUILD_TOP)/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin:/usr/local/sbin
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
